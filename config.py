@@ -31,9 +31,9 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URI", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "85738b1e5dc3dc11333d57b84db5200978d82ec7")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "1c028cc8fe7d0764eed4ab12bb222899ed8fbac4")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","isaimini_updates")
 
